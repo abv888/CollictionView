@@ -13,6 +13,12 @@
 		B7150763255C29ED00B4D1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7150761255C29ED00B4D1C8 /* Main.storyboard */; };
 		B7150765255C29EE00B4D1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7150764255C29EE00B4D1C8 /* Assets.xcassets */; };
 		B7150768255C29EE00B4D1C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7150766255C29EE00B4D1C8 /* LaunchScreen.storyboard */; };
+		B7150771255C2CA300B4D1C8 /* MyScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7150770255C2CA300B4D1C8 /* MyScrollViewController.swift */; };
+		B7150774255C2CB300B4D1C8 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7150773255C2CB300B4D1C8 /* MyTableViewController.swift */; };
+		B7150777255C2CC900B4D1C8 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7150776255C2CC900B4D1C8 /* MyCollectionViewController.swift */; };
+		B715077B255C309700B4D1C8 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715077A255C309700B4D1C8 /* MyPageViewController.swift */; };
+		B715077E255C5BE800B4D1C8 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715077D255C5BE800B4D1C8 /* Shop.swift */; };
+		B7150781255C5C4800B4D1C8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7150780255C5C4800B4D1C8 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B7150764255C29EE00B4D1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7150767255C29EE00B4D1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7150769255C29EE00B4D1C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7150770255C2CA300B4D1C8 /* MyScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollViewController.swift; sourceTree = "<group>"; };
+		B7150773255C2CB300B4D1C8 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		B7150776255C2CC900B4D1C8 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		B715077A255C309700B4D1C8 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		B715077D255C5BE800B4D1C8 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		B7150780255C5C4800B4D1C8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				B715075B255C29ED00B4D1C8 /* AppDelegate.swift */,
 				B715075D255C29ED00B4D1C8 /* SceneDelegate.swift */,
-				B715075F255C29ED00B4D1C8 /* ViewController.swift */,
+				B715077D255C5BE800B4D1C8 /* Shop.swift */,
+				B7150780255C5C4800B4D1C8 /* MyCollectionViewCell.swift */,
 				B7150761255C29ED00B4D1C8 /* Main.storyboard */,
+				B7150770255C2CA300B4D1C8 /* MyScrollViewController.swift */,
+				B7150773255C2CB300B4D1C8 /* MyTableViewController.swift */,
+				B7150776255C2CC900B4D1C8 /* MyCollectionViewController.swift */,
+				B715077A255C309700B4D1C8 /* MyPageViewController.swift */,
+				B715075F255C29ED00B4D1C8 /* ViewController.swift */,
 				B7150764255C29EE00B4D1C8 /* Assets.xcassets */,
 				B7150766255C29EE00B4D1C8 /* LaunchScreen.storyboard */,
 				B7150769255C29EE00B4D1C8 /* Info.plist */,
@@ -139,7 +157,13 @@
 			files = (
 				B7150760255C29ED00B4D1C8 /* ViewController.swift in Sources */,
 				B715075C255C29ED00B4D1C8 /* AppDelegate.swift in Sources */,
+				B7150781255C5C4800B4D1C8 /* MyCollectionViewCell.swift in Sources */,
+				B715077B255C309700B4D1C8 /* MyPageViewController.swift in Sources */,
+				B7150777255C2CC900B4D1C8 /* MyCollectionViewController.swift in Sources */,
 				B715075E255C29ED00B4D1C8 /* SceneDelegate.swift in Sources */,
+				B7150774255C2CB300B4D1C8 /* MyTableViewController.swift in Sources */,
+				B7150771255C2CA300B4D1C8 /* MyScrollViewController.swift in Sources */,
+				B715077E255C5BE800B4D1C8 /* Shop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
